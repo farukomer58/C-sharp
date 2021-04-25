@@ -55,9 +55,20 @@ namespace NoteTakingApp {
 
         // Delete the selected row
         private void BtnDelete_Click(object sender, EventArgs e) {
-            int index = dataGridView1.CurrentCell.RowIndex;
+            int index = -1;
+            try {
+                index = dataGridView1.CurrentCell.RowIndex;
+            }
+            catch {
+            }
 
-            table.Rows[index].Delete();
+            // If index greater or equal to 0 it means a row is selected
+            if (index>-1) {
+                table.Rows[index].Delete();
+            }
+            else {
+                Console.WriteLine("Select a Row");
+            }
         }
     }
 }
