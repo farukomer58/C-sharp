@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollingGame", "DiceRoll
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequence", "FibonacciSequence\FibonacciSequence.csproj", "{347D2FF1-3CC1-4A30-A122-91ABCB6C6AD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{33DEC91A-2DA7-451E-BBB8-91B48EDCC51C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{347D2FF1-3CC1-4A30-A122-91ABCB6C6AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{347D2FF1-3CC1-4A30-A122-91ABCB6C6AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{347D2FF1-3CC1-4A30-A122-91ABCB6C6AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DEC91A-2DA7-451E-BBB8-91B48EDCC51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DEC91A-2DA7-451E-BBB8-91B48EDCC51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DEC91A-2DA7-451E-BBB8-91B48EDCC51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DEC91A-2DA7-451E-BBB8-91B48EDCC51C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
